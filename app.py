@@ -66,11 +66,6 @@ def _fetch_articles_apitube(entity: str) -> list:
                     )
                 })
 
-      
-        if articles:
-            with open("articles.txt", "w") as f:
-                for a in articles:
-                    f.write(str(a) + "\n")
         return articles
     except Exception as e:
        
