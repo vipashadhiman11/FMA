@@ -1,0 +1,7 @@
+streamlit
+crewai
+litellm
+matplotlib
+pandas
+requests
+python-dotenv
